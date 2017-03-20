@@ -1,12 +1,18 @@
-h3 {
+div {
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+    color: brown;
+    border-color: hotpink;
+    padding: 10px 10px 10px 10px;
+    font-size: 2em;
+    background-color: hotpink;
+    width: 60%;
     text-align: center;
-    font-family: Arial;
-    font-size: 30px;
-    color: hotpink;
 }
 img {
-    margin: auto;
     display: block;
+    margin: auto;
 }
 header {
     text-align: center;
@@ -14,6 +20,7 @@ header {
     font-size: 30px;
     font-style: italic;
     color: hotpink;
+    font-weight: bold;
 }
 p {
     font-size: 20px;
@@ -23,10 +30,9 @@ p {
     margin-right: 150px;
     color: brown;
     border-style: none;
-    padding: 0px;
 }
 h4 {
-    margin: 100px;
+    margin-left: 150px;
     font-size: 20px;
     font-family: Arial;
     color: brown;
@@ -38,7 +44,16 @@ h4 {
     font-family: Arial;
     list-style-type: none;
     font-size: 20px;
+    margin-left: 150px;
 }
 #footer {
     font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+    color: brown;
+}
+a {
+    text-decoration: none;
+    color: hotpink;
 }
